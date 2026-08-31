@@ -169,23 +169,17 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 
 ## 📈 Activity
 
+Every figure here covers **public and private repositories**. GitHub's own cards and third-party services can
+only see public, personally-owned repos, so they undercounted by roughly 900 commits — these are generated
+from the full set instead.
+
 <div align="center">
 
-<img src="assets/activity.svg" width="98%" alt="Contribution activity: 2,352 contributions in the last year — 1,445 public plus 907 private repository commits">
+<img src="assets/activity.svg" width="98%" alt="Contribution activity: 2,352 contributions in the last year, public repositories plus 907 private commits">
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=Chrissou78&theme=github_dark&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" width="58%" alt="Contribution streak">
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chrissou78&theme=github_dark" width="44%" alt="Repos per language">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chrissou78&theme=github_dark" width="44%" alt="Most committed language">
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Chrissou78&theme=github_dark&utcOffset=1" width="44%" alt="Productive time">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chrissou78&theme=github_dark" width="44%" alt="Profile details">
+<img src="assets/rhythm.svg" width="98%" alt="Commit rhythm: 2,478 commits (1,565 public, 913 private), 190 active days of 366, 27 day current streak, 29 day longest streak, distribution by hour of day and weekday">
 
 </div>
 
