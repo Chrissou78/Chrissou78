@@ -187,6 +187,7 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 ## 📬 Get in touch
 
 - 🌐 [onchainlabs.ch](https://onchainlabs.ch)
+- 💼 [linkedin.com/in/christopherfourquier](https://www.linkedin.com/in/christopherfourquier)
 - ✉️ christopher.fourquier@onchainlabs.ch
 - 💬 Open to protocol work, smart-contract development and audits, tokenization projects, and full-stack builds.
 
