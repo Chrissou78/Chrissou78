@@ -167,7 +167,7 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/2c5d7c/Chrissou78" width="98%" alt="Contribution graph">
+<img src="assets/activity.svg" width="98%" alt="Contribution activity: 1,445 contributions in the last year">
 
 <br><br>
 
