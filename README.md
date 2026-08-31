@@ -167,21 +167,21 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/7dd3fc/Chrissou78" width="98%" alt="Contribution graph">
+<img src="https://ghchart.rshah.org/2c5d7c/Chrissou78" width="98%" alt="Contribution graph">
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=Chrissou78&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" width="58%" alt="Contribution streak">
+<img src="https://streak-stats.demolab.com?user=Chrissou78&theme=github_dark&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" width="58%" alt="Contribution streak">
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chrissou78&theme=tokyonight" width="44%" alt="Repos per language">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chrissou78&theme=tokyonight" width="44%" alt="Most committed language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chrissou78&theme=github_dark" width="44%" alt="Repos per language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chrissou78&theme=github_dark" width="44%" alt="Most committed language">
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Chrissou78&theme=tokyonight&utcOffset=1" width="44%" alt="Productive time">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chrissou78&theme=tokyonight" width="44%" alt="Profile details">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Chrissou78&theme=github_dark&utcOffset=1" width="44%" alt="Productive time">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chrissou78&theme=github_dark" width="44%" alt="Profile details">
 
 </div>
 
