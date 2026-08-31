@@ -171,7 +171,7 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 
 <div align="center">
 
-<img src="assets/activity.svg" width="98%" alt="Contribution activity: 1,445 contributions in the last year">
+<img src="assets/activity.svg" width="98%" alt="Contribution activity: 2,352 contributions in the last year — 1,445 public plus 907 private repository commits">
 
 <br><br>
 
