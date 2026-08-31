@@ -27,14 +27,24 @@ I build **on-chain systems end to end** — from the contract that holds the val
 ## 🏢 Where my work lives
 
 <p align="center">
-  <a href="https://github.com/Sermium"><img alt="Sermium organisation" src="https://img.shields.io/badge/Sermium-16%20public%20repos-009C3B?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"></a>
+  <a href="https://github.com/Sermium"><img alt="Sermium" src="https://img.shields.io/badge/Sermium-16%20public%20repos-009C3B?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"></a>
+  <a href="https://github.com/OC-Labs"><img alt="OC-Labs" src="https://img.shields.io/badge/OC--Labs-5%20public%20repos-3C3C3D?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"></a>
+  <a href="https://github.com/SM-Web-Systems"><img alt="SM Web Systems" src="https://img.shields.io/badge/SM%20Web%20Systems-18%20public%20repos-1e40af?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"></a>
+  <a href="https://github.com/SettlX-co"><img alt="SettlX" src="https://img.shields.io/badge/SettlX-private-5b21b6?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"></a>
 </p>
 
-Most of what I build ships under **[Sermium](https://github.com/Sermium)**, my own company — Soroban treasury
-infrastructure, Sui tooling, RWA tokenization and EVM contracts all live there rather than on this account.
+Most of what I build ships under organisations rather than this personal account:
 
-> GitHub's built-in stat cards only count personally-owned repositories, so they undercount organisation work.
-> The charts on this page are generated from **my personal account and my organisations combined**.
+| Organisation | | Focus |
+|---|---|---|
+| **[Sermium](https://github.com/Sermium)** | my company · Brazil | Soroban treasury infrastructure, Sui tooling, RWA tokenization, EVM contracts |
+| **[OC-Labs](https://github.com/OC-Labs)** | OnChainLabs · Switzerland | Wallet SDKs, NFC tooling, shared internal libraries |
+| **[SM-Web-Systems](https://github.com/SM-Web-Systems)** | engineering education | Rust, Soroban, Stellar and Ethereum crash courses · LMS platform · robotics &amp; electronics |
+| **[SettlX](https://github.com/SettlX-co)** | settlement | private repositories |
+
+> ⚠️ GitHub's built-in stat cards only count repositories owned by a **user account**, so they show none of the
+> above. The charts on this page are generated from **my personal account and all four organisations combined**,
+> with forks excluded.
 
 ---
 
