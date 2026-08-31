@@ -16,22 +16,100 @@
 
 I build **on-chain systems end to end** — from the contract that holds the value, to the API that orchestrates it, to the interface a non-crypto user can navigate without ever hearing the word "wallet".
 
-- ⛓️ **Smart contracts** — Solidity (EVM/Polygon), Move (Aptos/Sui), Rust (Solana/CosmWasm)
-- 🏗️ **Protocol & tooling** — tokenomics, treasury/multisig design, burn mechanics, on-chain audit trails
-- 🖥️ **Full stack** — TypeScript/Next.js front ends, Node APIs, Flutter mobile, Postgres, deployment on Vercel/Railway
-- 🤖 **AI + automation** — LLM agents wired into real workflows (content, ops, human-in-the-loop approvals)
-- 🎯 **Product mindset** — the blockchain is infrastructure, not the pitch. Users should feel speed and lower fees, not the chain.
+---
+
+## 🧭 Specialities
+
+<p align="center">
+  <img src="assets/specialties.svg" alt="Specialities: Solidity/EVM contracts, tokenomics and treasury design, Move (Aptos/Sui), Rust (Solana/CosmWasm), TypeScript/Node backends, Next.js/React frontends, Flutter/Dart mobile, infra and CI, AI agents and automation" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/radar.svg" alt="Radar chart across smart contracts, backend, frontend, mobile, infra and AI automation" width="70%">
+</p>
 
 ---
 
-## 🛠️ Stack
+## 🧱 How a project fits together
 
-**Smart contracts & chains**
+The layers I work across on a typical build — I own the seams, not just one box.
+
+```mermaid
+flowchart LR
+    subgraph CHAIN["⛓️ On-chain"]
+        A["Solidity / Move / Rust<br/>contracts"]
+        B["Treasury multisig<br/>· burn · audit trail"]
+    end
+    subgraph SVC["🔧 Services"]
+        C["Node / TypeScript API"]
+        D["Indexer &<br/>event listeners"]
+        E["AI agents<br/>· automation"]
+    end
+    subgraph APP["🖥️ Product"]
+        F["Next.js / React<br/>web app"]
+        G["Flutter<br/>mobile + wallet"]
+    end
+    subgraph OPS["🚀 Delivery"]
+        H["CI · tests · coverage"]
+        I["Vercel / Railway<br/>Docker"]
+    end
+
+    A --> D --> C
+    B --> A
+    C --> F
+    C --> G
+    E --> C
+    H --> A
+    H --> C
+    I --> F
+    I --> C
+
+    classDef chain fill:#3b2a06,stroke:#f0b429,color:#f5e6c8
+    classDef svc   fill:#0b2a45,stroke:#60a5fa,color:#d8e9ff
+    classDef app   fill:#07333a,stroke:#22d3ee,color:#d3f6fb
+    classDef ops   fill:#05332a,stroke:#34d399,color:#d6f7ec
+    class A,B chain
+    class C,D,E svc
+    class F,G app
+    class H,I ops
+```
+
+---
+
+## 🧪 What I actually ship in
+
+Aggregated from the source in my public repositories:
+
+```mermaid
+pie showData
+    title Bytes of code by language across my repos
+    "TypeScript" : 60.9
+    "JavaScript" : 16.9
+    "HTML" : 16.2
+    "CSS" : 1.8
+    "Solidity" : 1.5
+    "Dart" : 1.4
+    "Nunjucks" : 1.2
+    "Other" : 0.1
+```
+
+> Contract code is small by volume and large by consequence — a 200-line vault carries more risk than 20k lines of UI.
+
+---
+
+## 🔍 Deep dive
+
+<details>
+<summary><b>⛓️ Smart contracts & protocol</b></summary>
+
+<br>
+
+Upgradeable proxies, treasury multisigs, deflationary burn mechanics, on-chain audit trails and token standards. Tests and coverage before mainnet, not after — custody and upgrade paths are designed per product, never copy-pasted.
 
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Move](https://img.shields.io/badge/Move-4A90D9?style=flat-square)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Ethereum](https://img.shields.io/badge/EVM-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![EVM](https://img.shields.io/badge/EVM-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 ![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?style=flat-square&logo=polygon&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-14F195?style=flat-square&logo=solana&logoColor=black)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black)
@@ -39,7 +117,14 @@ I build **on-chain systems end to end** — from the contract that holds the val
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white)
 ![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=flat-square&logo=ethers&logoColor=white)
 
-**Backend**
+</details>
+
+<details>
+<summary><b>🔧 Backend & APIs</b></summary>
+
+<br>
+
+TypeScript monorepos, REST and webhook-driven services, payment rails, event indexers, background jobs and the glue that keeps off-chain state honest about on-chain state.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -48,7 +133,14 @@ I build **on-chain systems end to end** — from the contract that holds the val
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**Frontend & mobile**
+</details>
+
+<details>
+<summary><b>🖥️ Frontend & mobile</b></summary>
+
+<br>
+
+Next.js dashboards, multilingual product sites, checkout flows, and Flutter apps with offline-first key handling — BIP39/BIP32 generation, challenge signing, balances and minting behind a UI that never says "gas".
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -56,35 +148,29 @@ I build **on-chain systems end to end** — from the contract that holds the val
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 
-**Infra & delivery**
+</details>
+
+<details>
+<summary><b>🚀 Infra, delivery & AI automation</b></summary>
+
+<br>
+
+Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railway — plus LLM agents wired into actual workflows with human-in-the-loop approval rather than autonomous posting.
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
 
----
-
-## 🚀 Selected work
-
-| Project | What it is | Stack |
-|---|---|---|
-| [**DigitalPayment / PayDuka**](https://github.com/Chrissou78/DigitalPayment) | Instant payment platform for African merchants — bank-to-bank rails (PayShap, Capitec Pay) + auto-refilling wallet, cutting card fees 60–90%. A Polygon layer underneath handles burn, treasury transparency and audit trail; users never see it. | TypeScript · Solidity · Polygon |
-| [**compensation-chamber**](https://github.com/Chrissou78/compensation-chamber) | On-chain compensation & settlement contracts with upgradeable proxies, a treasury multisig, and a full Hardhat test/coverage suite. | Solidity · Hardhat · OpenZeppelin · TypeChain |
-| [**onchainlabs_flutter**](https://github.com/Chrissou78/onchainlabs_flutter) | Polygon wallet SDK for Flutter apps: BIP39/BIP32 key generation, challenge signing, backend registration, minting and balances — offline-first key handling. | Dart · Flutter · EVM |
-| [**Media-Agent**](https://github.com/Chrissou78/Media-Agent) | AI agent that writes story-driven tokenization/blockchain content and publishes to X, LinkedIn and Telegram, with a human-in-the-loop approval flow driven from a Telegram bot. | TypeScript · LLM tooling |
-| [**ZAI**](https://github.com/Chrissou78/ZAI) | Full monorepo platform — API, apps and shared packages — deployed across Vercel and Railway. | TypeScript · pnpm workspaces |
-| [**trade-tools**](https://github.com/Chrissou78/trade-tools) | Trading utility suite for market analysis and decision support. | Next.js · TypeScript |
-| [**Solar-app**](https://github.com/Chrissou78/Solar-app) | Multilingual solar-panel customer & installation management app. | Next.js · TypeScript · i18n |
-| [**KeyValley**](https://github.com/Chrissou78/KeyValley) | E-commerce/checkout platform with webhook-driven fulfilment. | JavaScript · Vercel |
-| [**Regsymp**](https://github.com/Chrissou78/Regsymp) | Symposium & membership site with an admin backend and API. | Eleventy · Nunjucks · Node |
+</details>
 
 ---
 
 ## 💡 How I work
 
-- **Contracts first, then everything around them.** Tests, coverage and upgrade paths before mainnet — not after.
-- **Custody is a design decision.** Key generation, storage and recovery get thought through per product, not copy-pasted.
-- **Ship the whole thing.** Contract, indexer, API, dashboard, mobile app, deploy pipeline — I'd rather own the seam than hand it off.
+- **Contracts first, then everything around them.** Tests, coverage and upgrade paths before mainnet.
+- **Custody is a design decision.** Key generation, storage and recovery get thought through per product.
+- **Ship the whole thing.** Contract, indexer, API, dashboard, mobile app, deploy pipeline.
 - **Boring UX for exotic tech.** If a merchant needs to understand gas, the product isn't finished.
 
 ---

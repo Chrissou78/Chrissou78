@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#b47a06"/><stop offset="1" stop-color="#f0b429"/></linearGradient>
+    <linearGradient id="blue" x1="0" x2="1"><stop offset="0" stop-color="#1e40af"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop offset="0" stop-color="#0e7490"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="green" x1="0" x2="1"><stop offset="0" stop-color="#047857"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <linearGradient id="violet" x1="0" x2="1"><stop offset="0" stop-color="#5b21b6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+
+  <rect width="880" height="430" rx="14" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="24" y="42" fill="#e6edf3" font-size="19" font-weight="600">Specialities</text>
+  <text x="150" y="42" fill="#7d8590" font-size="12.5">relative depth across the stack</text>
+
+  <g font-size="11" fill="#8b949e">
+    <circle cx="28" cy="68" r="4" fill="#f0b429"/><text x="38" y="72">Contracts &amp; protocol</text>
+    <circle cx="180" cy="68" r="4" fill="#60a5fa"/><text x="190" y="72">Backend</text>
+    <circle cx="256" cy="68" r="4" fill="#22d3ee"/><text x="266" y="72">Frontend &amp; mobile</text>
+    <circle cx="388" cy="68" r="4" fill="#34d399"/><text x="398" y="72">Infra</text>
+    <circle cx="446" cy="68" r="4" fill="#a78bfa"/><text x="456" y="72">AI &amp; automation</text>
+  </g>
+  <line x1="24" y1="86" x2="856" y2="86" stroke="#21262d"/>
+
+  <g font-size="13">
+    <!-- row 1 -->
+    <text x="264" y="112" text-anchor="end" fill="#c9d1d9">Solidity / EVM contracts</text>
+    <rect x="280" y="101" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="101" width="0" height="14" rx="7" fill="url(#gold)"><animate attributeName="width" from="0" to="494" dur="1.1s" begin="0.05s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="112" fill="#6e7681" font-size="11">core</text>
+    <!-- row 2 -->
+    <text x="264" y="148" text-anchor="end" fill="#c9d1d9">Tokenomics &amp; treasury design</text>
+    <rect x="280" y="137" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="137" width="0" height="14" rx="7" fill="url(#gold)"><animate attributeName="width" from="0" to="458" dur="1.1s" begin="0.13s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="148" fill="#6e7681" font-size="11">core</text>
+    <!-- row 3 -->
+    <text x="264" y="184" text-anchor="end" fill="#c9d1d9">Move — Aptos / Sui</text>
+    <rect x="280" y="173" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="173" width="0" height="14" rx="7" fill="url(#gold)"><animate attributeName="width" from="0" to="390" dur="1.1s" begin="0.21s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="184" fill="#6e7681" font-size="11">working</text>
+    <!-- row 4 -->
+    <text x="264" y="220" text-anchor="end" fill="#c9d1d9">Rust — Solana / CosmWasm</text>
+    <rect x="280" y="209" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="209" width="0" height="14" rx="7" fill="url(#gold)"><animate attributeName="width" from="0" to="374" dur="1.1s" begin="0.29s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="220" fill="#6e7681" font-size="11">working</text>
+    <!-- row 5 -->
+    <text x="264" y="256" text-anchor="end" fill="#c9d1d9">TypeScript / Node backends</text>
+    <rect x="280" y="245" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="245" width="0" height="14" rx="7" fill="url(#blue)"><animate attributeName="width" from="0" to="478" dur="1.1s" begin="0.37s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="256" fill="#6e7681" font-size="11">core</text>
+    <!-- row 6 -->
+    <text x="264" y="292" text-anchor="end" fill="#c9d1d9">Next.js / React frontends</text>
+    <rect x="280" y="281" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="281" width="0" height="14" rx="7" fill="url(#cyan)"><animate attributeName="width" from="0" to="468" dur="1.1s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="292" fill="#6e7681" font-size="11">core</text>
+    <!-- row 7 -->
+    <text x="264" y="328" text-anchor="end" fill="#c9d1d9">Flutter / Dart mobile</text>
+    <rect x="280" y="317" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="317" width="0" height="14" rx="7" fill="url(#cyan)"><animate attributeName="width" from="0" to="406" dur="1.1s" begin="0.53s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="328" fill="#6e7681" font-size="11">strong</text>
+    <!-- row 8 -->
+    <text x="264" y="364" text-anchor="end" fill="#c9d1d9">Infra, CI &amp; deployment</text>
+    <rect x="280" y="353" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="353" width="0" height="14" rx="7" fill="url(#green)"><animate attributeName="width" from="0" to="426" dur="1.1s" begin="0.61s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="364" fill="#6e7681" font-size="11">strong</text>
+    <!-- row 9 -->
+    <text x="264" y="400" text-anchor="end" fill="#c9d1d9">AI agents &amp; automation</text>
+    <rect x="280" y="389" width="520" height="14" rx="7" fill="#161b22"/>
+    <rect x="280" y="389" width="0" height="14" rx="7" fill="url(#violet)"><animate attributeName="width" from="0" to="442" dur="1.1s" begin="0.69s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+    <text x="812" y="400" fill="#6e7681" font-size="11">strong</text>
+  </g>
+</svg>
