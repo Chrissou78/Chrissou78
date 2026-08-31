@@ -24,6 +24,20 @@ I build **on-chain systems end to end** — from the contract that holds the val
 
 ---
 
+## 🏢 Where my work lives
+
+<p align="center">
+  <a href="https://github.com/Sermium"><img alt="Sermium organisation" src="https://img.shields.io/badge/Sermium-16%20public%20repos-009C3B?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"></a>
+</p>
+
+Most of what I build ships under **[Sermium](https://github.com/Sermium)**, my own company — Soroban treasury
+infrastructure, Sui tooling, RWA tokenization and EVM contracts all live there rather than on this account.
+
+> GitHub's built-in stat cards only count personally-owned repositories, so they undercount organisation work.
+> The charts on this page are generated from **my personal account and my organisations combined**.
+
+---
+
 ## 🧭 Specialities
 
 <p align="center">
@@ -67,6 +81,8 @@ Upgradeable proxies, treasury multisigs, deflationary burn mechanics, on-chain a
 ![Ethereum](https://img.shields.io/badge/EVM-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?style=for-the-badge&logo=polygon&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black)
+![Stellar](https://img.shields.io/badge/Stellar%20%C2%B7%20Soroban-000000?style=for-the-badge&logo=stellar&logoColor=white)
+![Sui](https://img.shields.io/badge/Sui-4DA2FF?style=for-the-badge&logo=sui&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
 ![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=forgejo&logoColor=white)
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
