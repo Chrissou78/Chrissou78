@@ -45,14 +45,15 @@ Most of what I build ships under organisations rather than this personal account
 > ⚠️ GitHub's built-in stat cards only count repositories owned by a **user account**, so they show none of the
 > above. The Code footprint chart below is measured by **cloning every repository across my account and
 > organisations** and counting the source lines I wrote — forks, generated output, lockfiles and vendored
-> code excluded.
+> code excluded. Private repositories are measured from local working copies, so their code counts even
+> though the repos themselves stay closed.
 
 ---
 
 ## 🧭 Specialities
 
 <p align="center">
-  <img src="assets/specialties.svg" alt="Specialities: Solidity/EVM contracts, tokenomics and treasury design, Move (Aptos/Sui), Rust (Solana/CosmWasm), TypeScript/Node backends, Next.js/React frontends, Flutter/Dart mobile, infra and CI, AI agents and automation" width="100%">
+  <img src="assets/specialties.svg" alt="Specialities: Solidity/EVM contracts, tokenomics and treasury design, private and permissioned chains, custom Cosmos SDK appchain, Rust for Soroban and Solana, Move on Sui, TypeScript/Node backends, Go chain modules, wallet and SDK engineering, Next.js/React, Flutter/Dart mobile, infra and CI, AI agents." width="100%">
 </p>
 
 <p align="center">
@@ -72,7 +73,7 @@ Most of what I build ships under organisations rather than this personal account
 ## 🧪 Code footprint
 
 <p align="center">
-  <img src="assets/languages.svg" alt="Lines of code I authored: TypeScript 360,436 (63.2%), Solidity 100,770 (17.7%), JavaScript 47,257, HTML 37,463, CSS, SQL, Rust 3,119, Dart, Move 2,288, Python, Nunjucks, Shell. 570,217 lines, 1,452 commits, 27 repositories, 4 organisations." width="100%">
+  <img src="assets/languages.svg" alt="Lines of code across public and private repositories: TypeScript 610,417 (59%), Solidity 106,185 (10.3%), JavaScript 98,762, Go 95,947 (9.3%), HTML 74,715, CSS, Protobuf, SQL, Shell, Rust, Dart, Python, Move, Nunjucks. 1,034,335 lines, 2,355 commits, 35 repositories (27 public, 8 private), 4 organisations." width="100%">
 </p>
 
 ---
@@ -94,6 +95,8 @@ Upgradeable proxies, treasury multisigs, deflationary burn mechanics, on-chain a
 ![Solana](https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black)
 ![Stellar](https://img.shields.io/badge/Stellar%20%C2%B7%20Soroban-000000?style=for-the-badge&logo=stellar&logoColor=white)
 ![Sui](https://img.shields.io/badge/Sui-4DA2FF?style=for-the-badge&logo=sui&logoColor=white)
+![Hyperledger Besu](https://img.shields.io/badge/Hyperledger%20Besu-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white)
+![Cosmos SDK](https://img.shields.io/badge/Cosmos%20SDK-2E3148?style=for-the-badge&logo=cosmos&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
 ![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=forgejo&logoColor=white)
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
@@ -111,6 +114,7 @@ TypeScript monorepos, REST and webhook-driven services, payment rails, event ind
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
