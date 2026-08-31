@@ -5,12 +5,12 @@
 </p>
 
 <p align="center">
-  <img alt="Sermium" src="https://img.shields.io/badge/Sermium-009C3B?style=for-the-badge&logo=databricks&logoColor=FFDF00">
+  <a href="https://sermiumglobal.com"><img alt="Sermium Global" src="https://img.shields.io/badge/Sermium-009C3B?style=for-the-badge&logo=databricks&logoColor=FFDF00"></a>
   <a href="https://onchainlabs.ch"><img alt="OnChainLabs" src="https://img.shields.io/badge/OnChainLabs-0B0F19?style=for-the-badge&logo=ethereum&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="Brazil" src="https://img.shields.io/badge/Sermium-Brazil-009C3B?style=flat-square&labelColor=1f2937">
+  <a href="https://sermiumglobal.com"><img alt="Sermium — Brazil" src="https://img.shields.io/badge/Sermium-Brazil-009C3B?style=flat-square&labelColor=1f2937"></a>
   <img alt="Switzerland" src="https://img.shields.io/badge/OnChainLabs-Switzerland-D52B1E?style=flat-square&labelColor=1f2937">
   <img alt="Open to collaborations" src="https://img.shields.io/badge/Open%20to-Collaborations-2ea44f?style=flat-square&labelColor=1f2937">
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Chrissou78&color=7dd3fc&style=flat-square&label=PROFILE+VIEWS">
@@ -162,7 +162,7 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 
 ## 📬 Get in touch
 
-- 🌐 [onchainlabs.ch](https://onchainlabs.ch)
+- 🌐 [sermiumglobal.com](https://sermiumglobal.com) · [onchainlabs.ch](https://onchainlabs.ch)
 - 💼 [linkedin.com/in/christopherfourquier](https://www.linkedin.com/in/christopherfourquier)
 - ✉️ christopher.fourquier@onchainlabs.ch
 - 💬 Open to protocol work, smart-contract development and audits, tokenization projects, and full-stack builds.
