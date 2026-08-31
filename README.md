@@ -40,7 +40,7 @@ Most of what I build ships under organisations rather than this personal account
 | **[Sermium](https://github.com/Sermium)** | my company · Brazil | Soroban treasury infrastructure, Sui tooling, RWA tokenization, EVM contracts |
 | **[OC-Labs](https://github.com/OC-Labs)** | OnChainLabs · Switzerland | Wallet SDKs, NFC tooling, shared internal libraries |
 | **[SM-Web-Systems](https://github.com/SM-Web-Systems)** | engineering education | Rust, Soroban, Stellar and Ethereum crash courses · LMS platform · robotics &amp; electronics |
-| **[SettlX](https://github.com/SettlX-co)** | settlement | private repositories |
+| **[SettlX](https://github.com/SettlX-co)** | settlement company | Blockchain-based settlement for international trade — repositories still private |
 
 > ⚠️ GitHub's built-in stat cards only count repositories owned by a **user account**, so they show none of the
 > above. The charts on this page are generated from **my personal account and all four organisations combined**,
