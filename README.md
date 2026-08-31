@@ -72,7 +72,7 @@ Most of what I build ships under organisations rather than this personal account
 ## 🧪 Code footprint
 
 <p align="center">
-  <img src="assets/languages.svg" alt="Lines of code I authored: TypeScript 205,768 (52.5%), Solidity 89,669 (22.9%), JavaScript 43,930 (11.2%), HTML 37,316 (9.5%), CSS, SQL, Dart, Python, Rust, Shell. 391,777 lines, 1,335 commits, 19 repositories, 4 organisations." width="100%">
+  <img src="assets/languages.svg" alt="Lines of code I authored: TypeScript 360,436 (63.2%), Solidity 100,770 (17.7%), JavaScript 47,257, HTML 37,463, CSS, SQL, Rust 3,119, Dart, Move 2,288, Python, Nunjucks, Shell. 570,217 lines, 1,452 commits, 27 repositories, 4 organisations." width="100%">
 </p>
 
 ---
