@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+  <rect width="880" height="330" rx="14" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="24" y="40" fill="#e6edf3" font-size="19" font-weight="600">Code footprint</text>
+  <text x="180" y="40" fill="#7d8590" font-size="12.5">7.1 MB of source across my public repositories</text>
+  <line x1="24" y1="60" x2="856" y2="60" stroke="#21262d"/>
+
+  <!-- donut -->
+  <g transform="translate(0 14)" fill="none" stroke-width="28">
+    <circle cx="196" cy="180" r="90" stroke="#161b22"/>
+    <circle cx="196" cy="180" r="90" stroke="#3178c6" stroke-dasharray="0 566" transform="rotate(-90 196 180)">
+      <animate attributeName="stroke-dasharray" to="344.4 566" dur="1.3s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></circle>
+    <circle cx="196" cy="180" r="90" stroke="#f1e05a" stroke-dasharray="0 566" transform="rotate(129.2 196 180)">
+      <animate attributeName="stroke-dasharray" to="95.6 566" dur="1.3s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></circle>
+    <circle cx="196" cy="180" r="90" stroke="#e34c26" stroke-dasharray="0 566" transform="rotate(190.1 196 180)">
+      <animate attributeName="stroke-dasharray" to="91.6 566" dur="1.3s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></circle>
+    <circle cx="196" cy="180" r="90" stroke="#563d7c" stroke-dasharray="0 566" transform="rotate(248.4 196 180)">
+      <animate attributeName="stroke-dasharray" to="10.2 566" dur="1.3s" begin="0.6s" fill="freeze"/></circle>
+    <circle cx="196" cy="180" r="90" stroke="#aa6746" stroke-dasharray="0 566" transform="rotate(254.9 196 180)">
+      <animate attributeName="stroke-dasharray" to="8.5 566" dur="1.3s" begin="0.7s" fill="freeze"/></circle>
+    <circle cx="196" cy="180" r="90" stroke="#00b4ab" stroke-dasharray="0 566" transform="rotate(260.3 196 180)">
+      <animate attributeName="stroke-dasharray" to="7.9 566" dur="1.3s" begin="0.8s" fill="freeze"/></circle>
+    <circle cx="196" cy="180" r="90" stroke="#3d8137" stroke-dasharray="0 566" transform="rotate(265.3 196 180)">
+      <animate attributeName="stroke-dasharray" to="6.8 566" dur="1.3s" begin="0.9s" fill="freeze"/></circle>
+  </g>
+  <text x="196" y="190" text-anchor="middle" fill="#e6edf3" font-size="24" font-weight="600">11</text>
+  <text x="196" y="210" text-anchor="middle" fill="#7d8590" font-size="11.5">repositories</text>
+
+  <!-- legend -->
+  <g font-size="13">
+    <g><rect x="420" y="82" width="11" height="11" rx="3" fill="#3178c6"/>
+      <text x="442" y="92" fill="#c9d1d9">TypeScript</text><text x="700" y="92" fill="#7d8590" text-anchor="end">4.34 MB</text><text x="800" y="92" fill="#e6edf3" text-anchor="end">60.9%</text></g>
+    <g><rect x="420" y="112" width="11" height="11" rx="3" fill="#f1e05a"/>
+      <text x="442" y="122" fill="#c9d1d9">JavaScript</text><text x="700" y="122" fill="#7d8590" text-anchor="end">1.20 MB</text><text x="800" y="122" fill="#e6edf3" text-anchor="end">16.9%</text></g>
+    <g><rect x="420" y="142" width="11" height="11" rx="3" fill="#e34c26"/>
+      <text x="442" y="152" fill="#c9d1d9">HTML</text><text x="700" y="152" fill="#7d8590" text-anchor="end">1.15 MB</text><text x="800" y="152" fill="#e6edf3" text-anchor="end">16.2%</text></g>
+    <g><rect x="420" y="172" width="11" height="11" rx="3" fill="#563d7c"/>
+      <text x="442" y="182" fill="#c9d1d9">CSS</text><text x="700" y="182" fill="#7d8590" text-anchor="end">132 KB</text><text x="800" y="182" fill="#e6edf3" text-anchor="end">1.8%</text></g>
+    <g><rect x="420" y="202" width="11" height="11" rx="3" fill="#aa6746"/>
+      <text x="442" y="212" fill="#c9d1d9">Solidity</text><text x="700" y="212" fill="#7d8590" text-anchor="end">105 KB</text><text x="800" y="212" fill="#e6edf3" text-anchor="end">1.5%</text></g>
+    <g><rect x="420" y="232" width="11" height="11" rx="3" fill="#00b4ab"/>
+      <text x="442" y="242" fill="#c9d1d9">Dart</text><text x="700" y="242" fill="#7d8590" text-anchor="end">103 KB</text><text x="800" y="242" fill="#e6edf3" text-anchor="end">1.4%</text></g>
+    <g><rect x="420" y="262" width="11" height="11" rx="3" fill="#3d8137"/>
+      <text x="442" y="272" fill="#c9d1d9">Nunjucks</text><text x="700" y="272" fill="#7d8590" text-anchor="end">82 KB</text><text x="800" y="272" fill="#e6edf3" text-anchor="end">1.2%</text></g>
+  </g>
+
+  <text x="420" y="304" fill="#6e7681" font-size="11.5">Contract code is small by volume and large by consequence — a 200-line vault outweighs 20k lines of UI.</text>
+</svg>

@@ -1,13 +1,19 @@
 <h1 align="center">Christopher — Blockchain Engineer & Full-Stack Builder</h1>
 
 <p align="center">
-  <em>Smart contracts on EVM, Move and Rust chains — wrapped in products people can actually use.</em>
+  <a href="https://git.io/typing-svg"><img alt="What I do" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7DD3FC&center=true&vCenter=true&width=680&lines=Smart+contracts+in+Solidity%2C+Move+and+Rust;Backends%2C+frontends%2C+mobile+%E2%80%94+the+whole+stack;Tokenization%2C+treasury+design%2C+payment+rails;On-chain+infrastructure+people+use+without+knowing+it"></a>
 </p>
 
 <p align="center">
+  <img alt="Sermium" src="https://img.shields.io/badge/Sermium-009C3B?style=for-the-badge&logo=databricks&logoColor=FFDF00">
   <a href="https://onchainlabs.ch"><img alt="OnChainLabs" src="https://img.shields.io/badge/OnChainLabs-0B0F19?style=for-the-badge&logo=ethereum&logoColor=white"></a>
-  <img alt="Switzerland" src="https://img.shields.io/badge/Based%20in-Switzerland-D52B1E?style=for-the-badge">
-  <img alt="Open to work" src="https://img.shields.io/badge/Open%20to-Collaborations-2ea44f?style=for-the-badge">
+</p>
+
+<p align="center">
+  <img alt="Brazil" src="https://img.shields.io/badge/Sermium-Brazil-009C3B?style=flat-square&labelColor=1f2937">
+  <img alt="Switzerland" src="https://img.shields.io/badge/OnChainLabs-Switzerland-D52B1E?style=flat-square&labelColor=1f2937">
+  <img alt="Open to collaborations" src="https://img.shields.io/badge/Open%20to-Collaborations-2ea44f?style=flat-square&labelColor=1f2937">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Chrissou78&color=7dd3fc&style=flat-square&label=PROFILE+VIEWS">
 </p>
 
 ---
@@ -30,137 +36,92 @@ I build **on-chain systems end to end** — from the contract that holds the val
 
 ---
 
-## 🧱 How a project fits together
+## 🧱 The stack I own
 
-The layers I work across on a typical build — I own the seams, not just one box.
-
-```mermaid
-flowchart LR
-    subgraph CHAIN["⛓️ On-chain"]
-        A["Solidity / Move / Rust<br/>contracts"]
-        B["Treasury multisig<br/>· burn · audit trail"]
-    end
-    subgraph SVC["🔧 Services"]
-        C["Node / TypeScript API"]
-        D["Indexer &<br/>event listeners"]
-        E["AI agents<br/>· automation"]
-    end
-    subgraph APP["🖥️ Product"]
-        F["Next.js / React<br/>web app"]
-        G["Flutter<br/>mobile + wallet"]
-    end
-    subgraph OPS["🚀 Delivery"]
-        H["CI · tests · coverage"]
-        I["Vercel / Railway<br/>Docker"]
-    end
-
-    A --> D --> C
-    B --> A
-    C --> F
-    C --> G
-    E --> C
-    H --> A
-    H --> C
-    I --> F
-    I --> C
-
-    classDef chain fill:#3b2a06,stroke:#f0b429,color:#f5e6c8
-    classDef svc   fill:#0b2a45,stroke:#60a5fa,color:#d8e9ff
-    classDef app   fill:#07333a,stroke:#22d3ee,color:#d3f6fb
-    classDef ops   fill:#05332a,stroke:#34d399,color:#d6f7ec
-    class A,B chain
-    class C,D,E svc
-    class F,G app
-    class H,I ops
-```
+<p align="center">
+  <img src="assets/stack.svg" alt="Layered stack: Product (Next.js, Flutter), Services (Node APIs, indexers, AI agents), Contracts (Solidity, Move, Rust), Chain (Polygon/EVM, Solana, Aptos, Sui), all wrapped in Delivery (tests, CI, Vercel/Railway/Docker)" width="100%">
+</p>
 
 ---
 
-## 🧪 What I actually ship in
+## 🧪 Code footprint
 
-Aggregated from the source in my public repositories:
-
-```mermaid
-pie showData
-    title Bytes of code by language across my repos
-    "TypeScript" : 60.9
-    "JavaScript" : 16.9
-    "HTML" : 16.2
-    "CSS" : 1.8
-    "Solidity" : 1.5
-    "Dart" : 1.4
-    "Nunjucks" : 1.2
-    "Other" : 0.1
-```
-
-> Contract code is small by volume and large by consequence — a 200-line vault carries more risk than 20k lines of UI.
+<p align="center">
+  <img src="assets/languages.svg" alt="Language distribution across public repositories: TypeScript 60.9%, JavaScript 16.9%, HTML 16.2%, CSS 1.8%, Solidity 1.5%, Dart 1.4%, Nunjucks 1.2%" width="100%">
+</p>
 
 ---
 
-## 🔍 Deep dive
+## 🧰 Toolbelt
 
-<details>
-<summary><b>⛓️ Smart contracts & protocol</b></summary>
+<details open>
+<summary><b>⛓️ Smart contracts &amp; protocol</b></summary>
 
 <br>
 
 Upgradeable proxies, treasury multisigs, deflationary burn mechanics, on-chain audit trails and token standards. Tests and coverage before mainnet, not after — custody and upgrade paths are designed per product, never copy-pasted.
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Move](https://img.shields.io/badge/Move-4A90D9?style=flat-square)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![EVM](https://img.shields.io/badge/EVM-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
-![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?style=flat-square&logo=polygon&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-14F195?style=flat-square&logo=solana&logoColor=black)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat-square)
-![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white)
-![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=flat-square&logo=ethers&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Move](https://img.shields.io/badge/Move-4A90D9?style=for-the-badge&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Ethereum](https://img.shields.io/badge/EVM-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?style=for-the-badge&logo=polygon&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
+![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=forgejo&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
+![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
 
 </details>
 
-<details>
-<summary><b>🔧 Backend & APIs</b></summary>
+<details open>
+<summary><b>🔧 Backend &amp; APIs</b></summary>
 
 <br>
 
 TypeScript monorepos, REST and webhook-driven services, payment rails, event indexers, background jobs and the glue that keeps off-chain state honest about on-chain state.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </details>
 
-<details>
-<summary><b>🖥️ Frontend & mobile</b></summary>
+<details open>
+<summary><b>🖥️ Frontend &amp; mobile</b></summary>
 
 <br>
 
 Next.js dashboards, multilingual product sites, checkout flows, and Flutter apps with offline-first key handling — BIP39/BIP32 generation, challenge signing, balances and minting behind a UI that never says "gas".
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 </details>
 
-<details>
-<summary><b>🚀 Infra, delivery & AI automation</b></summary>
+<details open>
+<summary><b>🚀 Infra, delivery &amp; AI automation</b></summary>
 
 <br>
 
 Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railway — plus LLM agents wired into actual workflows with human-in-the-loop approval rather than autonomous posting.
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </details>
 
@@ -175,12 +136,27 @@ Monorepo pipelines, CI with real coverage gates, deploys across Vercel and Railw
 
 ---
 
-## 📊 GitHub
+## 📈 Activity
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Chrissou78&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chrissou78&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages">
-</p>
+<div align="center">
+
+<img src="https://ghchart.rshah.org/7dd3fc/Chrissou78" width="98%" alt="Contribution graph">
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=Chrissou78&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" width="58%" alt="Contribution streak">
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chrissou78&theme=tokyonight" width="44%" alt="Repos per language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chrissou78&theme=tokyonight" width="44%" alt="Most committed language">
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Chrissou78&theme=tokyonight&utcOffset=1" width="44%" alt="Productive time">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chrissou78&theme=tokyonight" width="44%" alt="Profile details">
+
+</div>
 
 ---
 
