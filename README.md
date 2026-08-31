@@ -43,8 +43,9 @@ Most of what I build ships under organisations rather than this personal account
 | **[SettlX](https://github.com/SettlX-co)** | settlement company | Blockchain-based settlement for international trade — repositories still private |
 
 > ⚠️ GitHub's built-in stat cards only count repositories owned by a **user account**, so they show none of the
-> above. The charts on this page are generated from **my personal account and all four organisations combined**,
-> with forks excluded.
+> above. The Code footprint chart below is measured by **cloning every repository across my account and
+> organisations** and counting the source lines I wrote — forks, generated output, lockfiles and vendored
+> code excluded.
 
 ---
 
@@ -71,7 +72,7 @@ Most of what I build ships under organisations rather than this personal account
 ## 🧪 Code footprint
 
 <p align="center">
-  <img src="assets/languages.svg" alt="Language distribution across public repositories: TypeScript 60.9%, JavaScript 16.9%, HTML 16.2%, CSS 1.8%, Solidity 1.5%, Dart 1.4%, Nunjucks 1.2%" width="100%">
+  <img src="assets/languages.svg" alt="Lines of code I authored: TypeScript 205,768 (52.5%), Solidity 89,669 (22.9%), JavaScript 43,930 (11.2%), HTML 37,316 (9.5%), CSS, SQL, Dart, Python, Rust, Shell. 391,777 lines, 1,335 commits, 19 repositories, 4 organisations." width="100%">
 </p>
 
 ---
